@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "d6e73efe-3455-4a48-9f8a-39d1208b95b3"
+      }
+    },
+    "android": {
+      "package": "com.spotly.app"
+    }
+  }
+}
