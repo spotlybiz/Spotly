@@ -27,6 +27,10 @@ const config: CapacitorConfig = {
       style: 'dark',
       backgroundColor: '#0d9488',
     },
+    App: {
+      // Prevent app from being killed
+      allowMultipleWindows: false,
+    },
   },
   ios: {
     contentInset: 'automatic',
@@ -34,6 +38,8 @@ const config: CapacitorConfig = {
   },
   android: {
     allowMixedContent: false,
+    minSdkVersion: 24,
+    targetSdkVersion: 34,
   },
 };
 
